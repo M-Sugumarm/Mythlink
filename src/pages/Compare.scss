@@ -1,0 +1,104 @@
+/* src/components/Compare.scss */
+.compare-background {
+  position: relative;
+  background: linear-gradient(to bottom right, #2b1055, #7597de);
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 2rem 1rem;
+  z-index: 0;
+}
+
+.compare-overlay {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  color: #4b0082;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.god-entry {
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+}
+
+.god-entry:hover {
+  transform: scale(1.02);
+}
+
+.god-thumb {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin-right: 1rem;
+}
+
+.god-details {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.god-details p {
+  margin: 0.3rem 0;
+}
+
+/* Floating animated background using BG.jpg */
+@keyframes floatBackground {
+  0% { transform: translateX(-100vw); }
+  100% { transform: translateX(100vw); }
+}
+
+.compare-background::before,
+.compare-background::after {
+  content: '';
+  position: absolute;
+  background: url('../assets/BG.jpg') no-repeat center/cover;
+  opacity: 0.15;
+  z-index: 1;
+  pointer-events: none;
+  animation: floatBackground linear infinite;
+}
+
+.compare-background::before {
+  top: 10%;
+  left: -300px;
+  width: 400px;
+  height: 250px;
+  animation-duration: 60s;
+}
+
+.compare-background::after {
+  top: 60%;
+  left: -400px;
+  width: 500px;
+  height: 300px;
+  animation-duration: 90s;
+}
+
+@media (max-width: 768px) {
+  .god-entry {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .god-thumb {
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+}

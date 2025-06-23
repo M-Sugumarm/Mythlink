@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Zeus",
+    "religion": "Greek",
+    "image": "Zeus.jpg",
+    "description": "Zeus is the supreme deity in Greek mythology, ruler of Mount Olympus and the god of the sky and thunder. He wielded the thunderbolt as his primary weapon. Known for his many affairs and children, Zeus played a central role in countless myths. He was the protector of order and justice. His brothers are Poseidon and Hades, and together they rule the sky, sea, and underworld. His symbol is the lightning bolt. He is often associated with the eagle. Zeus maintained balance among the gods. His decisions influenced the fate of mortals and gods alike. He remains one of the most iconic mythological figures in history."
+  },
+  {
+    "name": "Thor",
+    "religion": "Norse",
+    "image": "Thor.jpg",
+    "description": "Thor is the Norse god of thunder, lightning, storms, and strength. He is the son of Odin and wielder of the mighty hammer Mjölnir. Known for his red beard and fiery temper, Thor protects Asgard from giants. His hammer returns to him when thrown and is a symbol of power. He rides a chariot pulled by two goats. Thor’s strength is unmatched among gods. He is deeply revered by warriors and common folk. Thursday is named after him. Thor is destined to face the Midgard serpent during Ragnarok. His stories are filled with heroic battles and moral lessons."
+  },
+  {
+    "name": "Odin",
+    "religion": "Norse",
+    "image": "Odin.jpg",
+    "description": "Odin is the chief god in Norse mythology, associated with wisdom, war, and death. He sacrificed an eye for ultimate knowledge. Odin rules Valhalla, where brave warriors go after death. He rides an eight-legged horse named Sleipnir. Accompanied by ravens Huginn and Muninn, he sees all and hears all. Odin is the father of Thor. He often wanders the world in disguise. He hung himself on Yggdrasil to gain the runes. Odin is revered as the god of poetry, prophecy, and magic. He plays a vital role in Norse eschatology and the fate of gods."
+  },
+  {
+    "name": "Jesus",
+    "religion": "Christian",
+    "image": "Jesus.jpg",
+    "description": "Jesus Christ is the central figure of Christianity, believed to be the Son of God. He was born in Bethlehem and lived a life of teaching, healing, and compassion. Jesus preached love, forgiveness, and salvation. His crucifixion and resurrection form the foundation of Christian faith. He performed many miracles, such as walking on water and raising the dead. Jesus had 12 disciples who spread his teachings. His message of peace continues to inspire millions. The Bible details his life and ministry. Christians view him as the savior of humanity. His sacrifice symbolizes divine love and redemption."
+  },
+  {
+    "name": "Horus",
+    "religion": "Egyptian",
+    "image": "Horus.jpg",
+    "description": "Horus is the falcon-headed god of the sky and kingship in ancient Egyptian mythology. He is the son of Osiris and Isis. Horus fought Set to avenge his father's death. He lost an eye in battle, which became the symbol of protection. Pharaohs were considered earthly incarnations of Horus. His eyes represent the sun and moon. Horus symbolizes power, victory, and divine authority. He was worshipped widely across Egypt. Temples were built in his honor, including Edfu. The Eye of Horus remains a powerful amulet today."
+  },
+  {
+    "name": "Ra",
+    "religion": "Egyptian",
+    "image": "Ra.jpg",
+    "description": "Ra is the ancient Egyptian sun god, considered the king of the gods. He sailed across the sky each day in his solar barque. At night, he traveled through the underworld, defeating chaos. Ra was often merged with other gods like Amun. His symbol is the solar disk. He created life and ruled with light. Ra had a falcon head with a sun disk. He was worshipped at Heliopolis. Ra’s daily cycle represents death and rebirth. His myth influenced Egyptian cosmology deeply."
+  },
+  {
+    "name": "Vishnu",
+    "religion": "Hindu",
+    "image": "Vishnu.jpg",
+    "description": "Vishnu is one of the principal deities in Hinduism, known as the preserver of the universe. He maintains cosmic order and dharma. Vishnu is often depicted with blue skin and four arms. He holds a conch, chakra, lotus, and mace. He has ten avatars, including Rama and Krishna. Vishnu rests on the serpent Ananta in the cosmic ocean. His consort is Goddess Lakshmi. He is a symbol of peace, mercy, and goodness. Devotees believe he returns in times of crisis. His teachings are found in texts like the Bhagavad Gita."
+  },
+  {
+    "name": "Shiva",
+    "religion": "Hindu",
+    "image": "Shiva.jpg",
+    "description": "Shiva is a powerful and complex Hindu god, known as the destroyer and transformer. He is part of the Trimurti alongside Vishnu and Brahma. Shiva lives in Mount Kailash. His third eye symbolizes higher consciousness. He is known for his ascetic lifestyle and meditation. Shiva dances the Tandava, representing creation and destruction. His weapon is the trident. The river Ganga flows from his matted hair. Nandi the bull is his vehicle. Devotees honor him with chants like 'Om Namah Shivaya'."
+  },
+  {
+    "name": "Kali",
+    "religion": "Hindu",
+    "image": "Kali.jpg",
+    "description": "Kali is a fierce Hindu goddess associated with time, death, and destruction. She is often portrayed with a dark complexion and a garland of skulls. Kali symbolizes the destruction of evil forces. She is a powerful form of Goddess Durga. Her tongue is often shown out in bloodlust. Kali is revered by Tantric traditions. She empowers her devotees with fearlessness. Despite her terrifying appearance, she is a motherly figure. Kali destroys ego and illusion. She grants liberation and spiritual awakening."
+  },
+  {
+    "name": "Athena",
+    "religion": "Greek",
+    "image": "Athena.jpg",
+    "description": "Athena is the Greek goddess of wisdom, war, and strategy. She was born fully grown from Zeus's head. Athena is the protector of Athens, which is named after her. Her symbols include the owl and the olive tree. She is a virgin goddess and represents rational warfare. Athena aided many heroes like Odysseus and Perseus. She is often shown in armor and helmet. The Parthenon temple is dedicated to her. She promotes wisdom, justice, and courage. Athena embodies intellect and disciplined strength."
+  }
+]

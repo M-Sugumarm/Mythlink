@@ -1,0 +1,48 @@
+
+  [
+  {
+    "question": "Who is the king of the Greek gods?",
+    "options": ["Zeus", "Hades", "Apollo", "Hermes"],
+    "answer": "Zeus"
+  },
+  {
+    "question": "Which Indian god is known for destruction?",
+    "options": ["Brahma", "Vishnu", "Shiva", "Ganesha"],
+    "answer": "Shiva"
+  },
+  {
+    "question": "Ra is the sun god in which culture?",
+    "options": ["Greek", "Roman", "Egyptian", "Indian"],
+    "answer": "Egyptian"
+},
+  {
+      "question": "What is the power of Thor?",
+      "options": ["Wisdom", "Thunder", "Love", "War"],
+      "answer": "Thunder"
+  },
+    {
+        "question": "Who is the goddess of wisdom in Greek mythology?",
+        "options": ["Aphrodite", "Artemis", "Athena", "Demeter"],
+        "answer": "Athena"
+    },
+    {
+        "question": "Vishnu is known for which role in Hinduism?",
+        "options": ["Creator", "Destroyer", "Preserver", "Protector"],
+        "answer": "Preserver"
+    },
+    {
+        "question": "Odin is associated with which culture?",
+        "options": ["Greek", "Norse", "Egyptian", "Indian"],
+        "answer": "Norse"
+    },
+    {
+        "question": "Jesus is a central figure in which religion?",
+        "options": ["Islam", "Hinduism", "Christianity", "Buddhism"],
+        "answer": "Christianity"
+    },
+    {
+        "question": "Horus is a god from which ancient culture?",
+        "options": ["Greek", "Roman", "Egyptian", "Norse"],
+        "answer": "Egyptian"
+    }
+  ]

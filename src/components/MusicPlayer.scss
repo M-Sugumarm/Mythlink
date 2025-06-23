@@ -1,0 +1,14 @@
+.music-player {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  background: #1e1e2f;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 8px;
+  z-index: 1000;
+}
+
+.music-player audio {
+  width: 200px;
+}

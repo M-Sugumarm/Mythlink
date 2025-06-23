@@ -1,0 +1,55 @@
+.god-card-wrapper {
+  margin: 20px;
+}
+
+.god-card {
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(145deg, #1c1c1c, #2e2e2e);
+  color: #fff;
+  cursor: pointer;
+  overflow: hidden;
+  border: 2px solid transparent;
+
+  img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 10px #fff);
+  }
+
+  h2 {
+    margin: 15px 0 5px;
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+    color: #ccc;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    border: 2px solid #f39c12;
+    background: linear-gradient(145deg, #333, #1e1e1e);
+  }
+}
+
+// Example culture theme
+.greek {
+  background: linear-gradient(145deg, #1a1a2e, #16213e);
+  border-color: #6a89cc;
+}
+
+.hindu {
+  background: linear-gradient(145deg, #3b0a35, #1f0318);
+  border-color: #e17055;
+}
+
+.norse {
+  background: linear-gradient(145deg, #102027, #263238);
+  border-color: #81ecec;
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Zeus",
+    "culture": "Greek",
+    "power": "Lightning & Sky",
+    "description": "Zeus is the king of the Greek gods, ruling over Mount Olympus and wielding the power of thunder.",
+    "image": "Zeus.jpg"
+  },
+  {
+    "name": "Shiva",
+    "culture": "Hindu",
+    "power": "Destruction & Regeneration",
+    "description": "Shiva is one of the principal deities of Hinduism, known as the destroyer and regenerator of the universe.",
+    "image": "Shiva.jpg"
+  },
+  {
+    "name": "Thor",
+    "culture": "Norse",
+    "power": "Thunder & Protection",
+    "description": "Thor is the Norse god of thunder, known for his mighty hammer Mjölnir and his protection of mankind.",
+    "image": "Thor.jpg"
+  },
+  {
+    "name": "Ra",
+    "culture": "Egyptian",
+    "power": "Sun & Creation",
+    "description": "Ra is the ancient Egyptian god of the sun, believed to sail across the sky each day in his solar boat.",
+    "image": "Ra.jpg"
+  },
+  {
+    "name": "Athena",
+    "culture": "Greek",
+    "power": "Wisdom & Warfare",
+    "description": "Athena is the Greek goddess of wisdom, war strategy, and courage, born from the head of Zeus.",
+    "image": "Athena.jpg"
+  },
+  {
+    "name": "Vishnu",
+    "culture": "Hindu",
+    "power": "Preservation & Protection",
+    "description": "Vishnu is the preserver of the universe in Hinduism, known for his avatars like Rama and Krishna.",
+    "image": "Vishnu.jpg"
+  },
+  {
+    "name": "Odin",
+    "culture": "Norse",
+    "power": "Wisdom & War",
+    "description": "Odin is the chief Norse god, god of wisdom, poetry, death, and magic, and ruler of Asgard.",
+    "image": "Odin.jpg"
+  },
+  {
+    "name": "Jesus",
+    "culture": "Christian",
+    "power": "Salvation & Miracles",
+    "description": "Jesus is central to Christianity, believed to be the Son of God and savior of mankind.",
+    "image": "Jesus.jpg"
+  },
+  {
+    "name": "Horus",
+    "culture": "Egyptian",
+    "power": "Sky & Kingship",
+    "description": "Horus is the Egyptian god of the sky and kingship, often depicted as a falcon.",
+    "image": "Horus.jpg"
+  },
+  {
+    "name": "Kali",
+    "culture": "Hindu",
+    "power": "Time & Destruction",
+    "description": "Kali is a fierce Hindu goddess who represents time, change, power, and destruction.",
+    "image": "Kali.jpg"
+  }
+]

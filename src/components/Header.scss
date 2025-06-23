@@ -1,0 +1,38 @@
+.app-header {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  border-bottom: 2px solid var(--highlight-color);
+  box-shadow: 0 0 15px var(--highlight-color);
+}
+
+.rainbow-glow {
+  font-size: 2.8rem;
+  background: linear-gradient(
+    270deg,
+    #ff6ec4,
+    #7873f5,
+    #4ade80,
+    #ffcc70,
+    #ff6ec4
+  );
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 8s ease infinite;
+  font-weight: 700;
+  text-shadow: 0 0 10px #ffffff60;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

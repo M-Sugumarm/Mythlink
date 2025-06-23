@@ -1,0 +1,62 @@
+.home-container {
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(to bottom right, #1e1e2f, #2e2e4e);
+  color: #fff;
+  min-height: 100vh;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  color: #ffcc00;
+  margin-bottom: 0.5rem;
+}
+
+.subheading {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.god-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.god-card {
+  background: #ffffff10;
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  width: 240px;
+  height: 340px;
+
+  &:hover {
+    transform: scale(1.06);
+    box-shadow: 0 12px 28px rgba(255, 204, 0, 0.4);
+  }
+}
+
+.god-img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  border-bottom: 2px solid #ffcc00;
+}
+
+.god-info {
+  padding: 0.8rem;
+  h3 {
+    color: #ffcc00;
+    margin: 0.5rem 0 0;
+  }
+  p {
+    color: #ddd;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,100 @@
+.god-detail-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #000;
+  min-height: 100vh;
+}
+
+.god-card {
+  background: linear-gradient(145deg, #1e1e2f, #12121a);
+  border-radius: 16px;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 0 20px #ff00ff;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.god-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  max-height: 400px;
+}
+
+.god-name {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #ffcc00;
+}
+
+.toggle-button {
+  margin: 1rem 0;
+  padding: 10px 20px;
+  background: #ff0099;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.toggle-button:hover {
+  background: #cc007a;
+}
+
+.god-info {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 1rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.god-description {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .god-detail-container {
+    padding: 1rem;
+  }
+
+  .god-card {
+    padding: 1rem;
+  }
+
+  .god-name {
+    font-size: 1.5rem;
+  }
+
+  .toggle-button {
+    padding: 8px 16px;
+  }
+
+  .god-description {
+    font-size: 0.95rem;
+  }
+}

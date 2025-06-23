@@ -1,0 +1,27 @@
+/* src/App.scss */
+.app-container {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f2f6ff;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 100px; // To avoid overlap with footer
+}
+
+.music-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ffffffcc;
+  border: none;
+  font-size: 1.8rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  z-index: 999;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: #fff;
+  }
+}

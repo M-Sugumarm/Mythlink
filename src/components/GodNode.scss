@@ -1,0 +1,22 @@
+.god-node {
+  background-color: #fff3e0;
+  border: 2px solid #ffb74d;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+
+  h3 {
+    margin: 0;
+    color: #e65100;
+  }
+
+  p {
+    margin-top: 0.5rem;
+    color: #5d4037;
+    font-size: 0.9rem;
+  }
+}
