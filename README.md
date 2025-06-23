@@ -26,7 +26,7 @@
 
 ## 🚀 Live Demo
 
-👉 [Visit MythLink](https://mythlink.vercel.app) *(replace with actual Vercel URL after deployment)*
+👉 [Visit MythLink](https://mythlink.vercel.app/) *(replace with actual Vercel URL after deployment)*
 
 ---
 
